@@ -45,7 +45,12 @@ JOIN disciplinas disc ON disc.id_professor = p.id_professor;
 
 ## **6. Mostra quantos alunos existem por curso (usar GROUP BY).**
 
----
+SELECT c.nome_curso,
+       COUNT(a.id_aluno) AS total_alunos
+FROM cursos c
+LEFT JOIN alunos a ON a.id_curso = c.id_curso
+GROUP BY c.nome_curso
+ORDER BY c.nome_curso;
 
 ## **7. Apresenta a média global das médias dos alunos, a mais alta e a mais baixa.**
 
