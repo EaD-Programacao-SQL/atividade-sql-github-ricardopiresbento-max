@@ -20,7 +20,7 @@ SELECT * FROM alunos WHERE media > 15;
 
 ## **3. Mostra os alunos ordenados pela média em ordem decrescente.**
 
----
+SELECT nome idade media FROM alunos ORDER BY medias DESC;
 
 ## **4. Conta quantos alunos estão no curso 'Multimédia'.**
 
