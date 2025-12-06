@@ -29,7 +29,10 @@ SELECT nome, idade, media
 
 ## **4. Conta quantos alunos estão no curso 'Multimédia'.**
 
----
+SELECT COUNT(*) AS total_alunos_multimedia
+FROM alunos a
+JOIN cursos c ON a.id_curso = c.id_curso
+WHERE c.nome_curso = 'Multimédia';
 
 ## **5. Faz um JOIN entre professores e disciplinas, listando o nome dos professores e o departamento.**
 
