@@ -32,7 +32,7 @@ Podes usar:
 **Nota:** A IA serve para explicar erros, não para escrever a solução por ti.
 
 ### 5️. Fazer a reflexão final
-No final do ficheiro `trabalho_aluno/resolucao.sql`, adiciona:
+No final do ficheiro `trabalho_aluno/reflexao_media.md`, adiciona:
 -- REFLEXÃO FINAL:
 -- Qual foi o media digital que mais ajudou a aprender SQL? Porquê?
 -- Onde tiveste mais dificuldades?
