@@ -12,12 +12,11 @@
 # Exercícios SQL (8 desafios)
 
 ## **1. Seleciona todos os registos da tabela `alunos`.**
-
----
+SELECT * FROM alunos;
 
 ## **2. Seleciona os alunos com média superior a 15.**
 
----
+SELECT * FROM alunos WHERE media > 15;
 
 ## **3. Mostra os alunos ordenados pela média em ordem decrescente.**
 
