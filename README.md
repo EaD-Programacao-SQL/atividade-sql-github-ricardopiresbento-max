@@ -13,7 +13,7 @@ Este repositório contém tudo o que precisas para desenvolver os exercícios, a
 - Executa o script para criar as tabelas e inserir os dados.
 
 ### 2️. Abrir o enunciado
-- Vai à pasta `enunciado/atividade_sql.md`.
+- Vai à pasta `atividade/enunciado_atividade.md`.
 - Lê os 8 desafios SQL.
 - Segue as instruções com atenção.
 
