@@ -8,17 +8,17 @@ Este repositório contém tudo o que precisas para desenvolver os exercícios, a
 ## O que tens de fazer (passos essenciais)
 
 ### 1️. Importar a base de dados
-- Abre o ficheiro `ficheiros/base_dados.sql`.
+- Abre o ficheiro `dados/base_dados.sql`.
 - Copia ou importa para o simulador SQL (db<>fiddle, SQL Online, XAMPP, etc.).
 - Executa o script para criar as tabelas e inserir os dados.
 
 ### 2️. Abrir o enunciado
-- Vai à pasta `enunciado/atividade_sql.md`.
+- Vai à pasta `atividade/enunciado_atividade.md`.
 - Lê os 8 desafios SQL.
 - Segue as instruções com atenção.
 
 ### 3️. Resolver os exercícios
-- Abre o ficheiro `resolucao/resolucao.sql`.
+- Abre o ficheiro `trabalho_aluno/resolucao.sql`.
 - Escreve todas as tuas consultas neste ficheiro.
 - Faz **commits frequentes** para registar a tua evolução.
 
@@ -32,7 +32,7 @@ Podes usar:
 **Nota:** A IA serve para explicar erros, não para escrever a solução por ti.
 
 ### 5️. Fazer a reflexão final
-No final do ficheiro `resolucao/resolucao.sql`, adiciona:
+No final do ficheiro `trabalho_aluno/reflexao_media.md`, adiciona:
 -- REFLEXÃO FINAL:
 -- Qual foi o media digital que mais ajudou a aprender SQL? Porquê?
 -- Onde tiveste mais dificuldades?
