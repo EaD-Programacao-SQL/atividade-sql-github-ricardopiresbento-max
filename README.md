@@ -18,7 +18,7 @@ Este repositório contém tudo o que precisas para desenvolver os exercícios, a
 - Segue as instruções com atenção.
 
 ### 3️. Resolver os exercícios
-- Abre o ficheiro `resolucao/resolucao.sql`.
+- Abre o ficheiro `trabalho_aluno/resolucao.sql`.
 - Escreve todas as tuas consultas neste ficheiro.
 - Faz **commits frequentes** para registar a tua evolução.
 
