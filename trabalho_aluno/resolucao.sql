@@ -54,7 +54,10 @@ ORDER BY c.nome_curso;
 
 ## **7. Apresenta a média global das médias dos alunos, a mais alta e a mais baixa.**
 
----
+SELECT AVG(a.media) AS media_global,
+       MAX(a.media) AS media_maxima,
+       MIN(a.media) AS media_minima
+FROM alunos a;
 
 ## **8. Seleciona os alunos cuja média é superior à média geral da tabela (subconsulta).**
 
