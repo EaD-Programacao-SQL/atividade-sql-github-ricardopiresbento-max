@@ -46,5 +46,8 @@ SELECT nome, idade, media
 ## **8. Seleciona os alunos cuja média é superior à média geral da tabela (subconsulta).**
 
 ---
+-- Utilizei a IA apenas para perceber porque a minha consulta estava errada.
+-- A IA explicou que a coluna “medias” não existe e faltavam vírgulas.
+-- A solução final foi escrita por mim.
 
 Depois de concluíres a atividade, não te esquecas da **reflexão final**, conforme está descrito README.
