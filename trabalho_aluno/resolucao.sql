@@ -60,7 +60,12 @@ SELECT AVG(a.media) AS media_global,
 FROM alunos a;
 
 ## **8. Seleciona os alunos cuja média é superior à média geral da tabela (subconsulta).**
-
+SELECT a.*
+FROM alunos a
+WHERE a.media > (
+    SELECT AVG(a2.media)
+    FROM alunos a2
+);
 ---
 -- Utilizei a IA apenas para perceber porque a minha consulta estava errada.
 -- A IA explicou que a coluna “medias” não existe e faltavam vírgulas.
