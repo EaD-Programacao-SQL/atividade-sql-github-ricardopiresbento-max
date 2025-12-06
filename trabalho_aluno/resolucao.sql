@@ -5,6 +5,10 @@
 --   - Escreve aqui os teus comandos SQL.
 --   - Faz commits regulares à medida que fores testando o código.
 -- ============================================
+-- Início da atividade SQL
+-- Importei a base de dados e confirmei que as tabelas foram criadas.
+
+
 # Exercícios SQL (8 desafios)
 
 ## **1. Seleciona todos os registos da tabela `alunos`.**
