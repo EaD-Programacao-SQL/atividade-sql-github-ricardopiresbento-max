@@ -36,7 +36,12 @@ WHERE c.nome_curso = 'Multimédia';
 
 ## **5. Faz um JOIN entre professores e disciplinas, listando o nome dos professores e o departamento.**
 
----
+SELECT p.nome_professor,
+       d.nome_departamento,
+       disc.nome_disciplina
+FROM professores p
+JOIN departamentos d ON p.id_departamento = d.id_departamento
+JOIN disciplinas disc ON disc.id_professor = p.id_professor;
 
 ## **6. Mostra quantos alunos existem por curso (usar GROUP BY).**
 
