@@ -8,7 +8,7 @@ Este repositório contém tudo o que precisas para desenvolver os exercícios, a
 ## O que tens de fazer (passos essenciais)
 
 ### 1️. Importar a base de dados
-- Abre o ficheiro `ficheiros/base_dados.sql`.
+- Abre o ficheiro `dados/base_dados.sql`.
 - Copia ou importa para o simulador SQL (db<>fiddle, SQL Online, XAMPP, etc.).
 - Executa o script para criar as tabelas e inserir os dados.
 
